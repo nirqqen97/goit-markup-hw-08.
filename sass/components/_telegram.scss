@@ -1,0 +1,28 @@
+.telegram {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 12px;
+
+    &:focus,
+    &:hover {
+        background-color: #FFFFFF;
+        color: var(--accent-color);
+    }
+
+    &:focus .footer-btn,
+    &:hover .footer-btn {
+        fill: var(--accent-color);
+    }
+}

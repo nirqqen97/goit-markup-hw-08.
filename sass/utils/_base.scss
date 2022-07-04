@@ -1,0 +1,51 @@
+.flex {
+    display: flex;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+
+}
+
+.current {
+    color: var(--accent-color);
+
+}
+
+footer {
+    background-color: var(--header-background-color);
+}
+
+.focus:focus {
+    color: var(--accent-color);
+}
+
+.hover:hover {
+    color: var(--accent-color);
+}
+
+address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.current-btn {
+    color: var(--first-button-color);
+    background-color: var(--accent-color);
+
+}
+
