@@ -49,17 +49,20 @@
 }
 
 .about-list {
-    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-inline-start: 0px;
 
-    flex-wrap: wrap;
-    gap: 30px;
 }
 
 .about-item {
-
-    width: 100%;
+    margin-left: 30px;
+    width: 270px;
 }
 
+.about-item:first-child {
+    margin-left: 0px;
+}
 
 .about-title {
     font-weight: bold;
