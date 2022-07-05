@@ -294,15 +294,16 @@
 }
 
 .about-list {
-  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
 }
 
 .about-item {
-  margin-bottom: -30px;
-}
-
-.about-item:first-child {
-  margin-left: 0px;
+  width: 100%;
 }
 
 .about-title {
