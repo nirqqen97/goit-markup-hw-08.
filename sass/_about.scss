@@ -49,15 +49,18 @@
 }
 
 .about-list {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-inline-start: 0px;
-
+    // display: flex;
+    // margin-top: 0px;
+    // margin-bottom: 0px;
+    // padding-inline-start: 0px;
+    // flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .about-item {
-    margin-left: 30px;
-    width: 270px;
+    // margin-left: 30px;
+    // width: 270px;
+    margin-bottom: -30px;
 }
 
 .about-item:first-child {
