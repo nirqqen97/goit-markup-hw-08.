@@ -490,11 +490,6 @@
   }
 }
 
-.team-soc-list-footer {
-  display: flex;
-  justify-content: center;
-}
-
 .team-soc-icon {
   fill: var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -688,12 +683,12 @@
   color: #FFFFFF;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
-  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .telegram {
     margin-left: 12px;
+    margin: 0 auto;
   }
 }
 
@@ -860,12 +855,6 @@
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {
-  .footer-input {
-    margin-bottom: 0px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .footer-input {
     margin-bottom: 0px;
@@ -900,7 +889,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-text-slogan {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -921,12 +910,6 @@
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
-  .footer-text {
-    text-align: left;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .footer-text {
     text-align: left;
@@ -940,7 +923,6 @@
 
 @media screen and (min-width: 768px) {
   .footer .container {
-    display: flex;
     align-items: baseline;
   }
 }
@@ -977,9 +959,16 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .footer-slogan {
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .footer-slogan {
     margin-right: 93px;
+    margin-left: 0px;
   }
 }
 
@@ -1023,12 +1012,6 @@
 .team-soc-link-footer:hover,
 .team-soc-link-footer:focus {
   background-color: var(--accent-color);
-}
-
-@media screen and (min-width: 768px) {
-  .footer-flex {
-    display: flex;
-  }
 }
 
 @media screen and (min-width: 1200px) {
