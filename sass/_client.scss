@@ -35,20 +35,8 @@
 }
 
 .client {
-    padding-bottom: 60px;
-    padding-top: 60px;
-
-    @media screen and (min-width: 768px) {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        ;
-    }
-
-    @media screen and (min-width: 1200px) {
-        padding-top: 94px;
-        padding-bottom: 94px;
-        ;
-    }
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .client-title {
@@ -62,45 +50,23 @@
 
 .client-list {
     display: flex;
-    margin-top: 30px;
-    flex-wrap: wrap;
-    gap: 30px;
-
-    @media screen and (min-width: 768px) {
-        margin-top: 30px;
-        ;
-    }
-
-    @media screen and (min-width: 1200px) {
-        margin-top: 50px;
-        ;
-    }
+    margin-top: 50px;
 
 }
 
 .client-item {
-    width: calc((100% - 30px) / 2);
+    width: 170px;
     height: 92px;
-
-    @media screen and (min-width: 768px) {
-        width: calc((100% - 60px) / 3);
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: calc((100% - 150px) / 6);
-    }
-
-
-    // margin-right: 30px;
+    margin-right: 30px;
 
     &:hover,
     &:focus {
         border-color: var(--accent-color);
     }
 
-    // &:last-child {
-    //     margin-right: 0px;
-    // }
+    &:last-child {
+        margin-right: 0px;
+    }
 
     &:hover .client-soc-link,
     &:focus .client-soc-link {

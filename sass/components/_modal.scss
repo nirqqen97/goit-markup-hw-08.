@@ -40,12 +40,14 @@
 
 .modal-icon {
     fill: #212121;
+
+    &:focus,
+    &:hover {
+        fill: var(--accent-color);
+    }
 }
 
-.modal-icon:focus,
-.modal-icon:hover {
-    fill: var(--accent-color);
-}
+
 
 .modal-btn:hover .modal-icon {
     fill: var(--accent-color);
