@@ -35,7 +35,7 @@
     position: absolute;
     top: 0;
     background-color: rgba(33, 150, 243, 0.9);
-    ;
+    overflow-y: scroll;
     height: 100%;
     font-weight: 400;
     font-size: 18px;
@@ -136,6 +136,7 @@
 .portfolio-wrap {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    flex-grow: 1;
 }
 
 .porfolio-hero-item1 {
