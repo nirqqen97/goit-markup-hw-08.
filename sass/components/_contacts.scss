@@ -2,10 +2,6 @@
     margin-bottom: 9px;
     text-align: center;
 
-    @media screen and (min-width: 768px) {
-        text-align: left;
-    }
-
     @media screen and (min-width: 1200px) {
         text-align: left;
     }
@@ -17,7 +13,7 @@
 
 .contacts-list {
     display: block;
-    margin-bottom: 60px;
+    // margin-bottom: 60px;
 
     @media screen and (min-width: 768px) {
         margin-bottom: 0px;

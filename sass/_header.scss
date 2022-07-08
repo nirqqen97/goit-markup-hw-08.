@@ -13,10 +13,25 @@
 .header-info {
     margin-right: 50px;
     display: flex;
+
+    @media screen and (min-width: 768px) {
+        margin-right: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 50px;
+        margin-bottom: 0px;
+
+
+    }
 }
 
 .header-info:last-child {
     margin-right: 0px;
+    margin-bottom: 0px;
+
 }
 
 .header-connect {
@@ -25,7 +40,7 @@
 
     @media screen and (min-width: 768px) {
         display: flex;
-        padding-left: 84px;
+        margin-left: 84px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -62,7 +77,12 @@
 
     @media screen and (min-width: 768px) {
         padding-top: 0;
-        padding-bottom: 0;
+        padding-bottom: 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 0;
+        padding-bottom: 0px;
     }
 
 
@@ -98,7 +118,7 @@
 
     @media screen and (min-width: 768px) {
         padding-top: 21px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 
     @media screen and (min-width: 1200px) {

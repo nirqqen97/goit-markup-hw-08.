@@ -58,9 +58,6 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-wrap {
-    padding: 20px 24px;
-}
 
 .porfolio-hero1 {
     padding-top: 56px;
@@ -136,22 +133,22 @@
 
 }
 
-.porfolio-hero-item1 {
-    gap: 30px;
-    margin-bottom: 30px;
+.portfolio-wrap {
+    padding: 20px 24px;
     border: 1px solid #EEEEEE;
+}
+
+.porfolio-hero-item1 {
+
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
 
     @media screen and (min-width: 768px) {
-        margin-right: 30px;
-        width: calc((100% - 60px) / 2);
+        width: calc((100% - 30px) / 2);
 
     }
 
     @media screen and (min-width: 1200px) {
-        margin-right: 30px;
-        // width: auto;
         width: calc((100% - 60px) / 3);
 
     }
@@ -169,14 +166,25 @@
 //     margin-bottom: 0px;
 // }
 
-.porfolio-hero-item1:nth-child(3n) {
+// .porfolio-hero-item1:nth-child(3n) {
 
-    @media screen and (min-width: 1200px) {
-        margin-right: 0;
+//     @media screen and (min-width: 1200px) {
+//         margin-right: 0;
 
 
-    }
-}
+//     }
+// }
+
+// .porfolio-hero-item1:nth-child(2n) {
+
+//     @media screen and (min-width: 768px) {
+//         margin-right: 0;
+
+
+//     }
+
+//     @media screen and (min-width: 1200px) {}
+// }
 
 
 .porfolio-hero-list1 {
@@ -184,6 +192,8 @@
     padding-inline-start: 0px;
     display: flex;
     justify-content: center;
+    gap: 30px;
+
 
     @media screen and (min-width: 768px) {
         // width: 1200px;
