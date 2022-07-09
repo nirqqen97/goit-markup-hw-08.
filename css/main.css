@@ -864,7 +864,7 @@
 @media screen and (min-width: 768px) {
   .footerf-felx {
     display: flex;
-    margin-bottom: 0px;
+    margin-bottom: 60px;
     padding-left: 76px;
     padding-right: 89px;
     justify-content: space-between;
@@ -1082,8 +1082,8 @@
 }
 
 .modal {
-  width: 450px;
-  height: 609px;
+  width: 95%;
+  height: 95%;
   background-color: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -1092,6 +1092,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 40px;
+}
+
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1603,7 +1610,26 @@ address {
 }
 
 .prt-link {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1198px) {
+  .prt-link .prt-text.portfolio-wrap {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
 }
 
 .prt-link:hover,
